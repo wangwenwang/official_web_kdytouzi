@@ -1,0 +1,411 @@
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, legend, input, textarea, button, p, blockquote, th, td
+{margin: 0;padding: 0;}
+ul,ol,li{ list-style: none;}
+a{text-decoration: none;}
+img{border: none;}
+
+/*头部开始*/
+
+body{
+	width: 100%;
+	font-family:"Microsoft Yahei";
+}
+header{
+	width:100%;
+	text-align: center;
+	font-family:"Microsoft Yahei";
+}
+/*头部   上面部分*/
+header .header_top{
+	width: 100%;
+	height: 10px;
+	line-height: 10px;
+	background-color: white;
+}
+.header_top .header_top_content{
+	width: 100%;
+	margin: 0 auto;
+	height: 8px;
+	background-color: #ec662d;
+	margin-bottom: 30px;
+}
+.header_top .header_top_content a{
+	font-size: 16px;
+	color: black;
+	display: block;
+}
+.header_top .header_top_content ._top_content_left{
+	float: left;
+}
+.header_top .header_top_content ._top_content_right{
+	float: right;
+}
+.header_top .header_top_content ._top_content_right a{
+	margin:0 20px;
+	position: relative;
+	float: left;
+}
+.header_top .header_top_content ._top_content_right img{
+	position: absolute;
+	display: none;
+	top: 45px;
+	width: 100px;
+	height: 100px;
+	left:-6px;
+	background-color: #fff;
+	z-index: 999;
+}
+.header_top .header_top_content ._top_content_right a:nth-child(1):hover img{
+	display: block;
+}
+/*头部   下面部分*/
+header .header_bottom{
+	margin: 15px auto;
+	width: 1080px;
+	height: 50px;
+	line-height: 50px;
+	/*font-size: 20px;*/
+}
+.m_head_nav{
+	display: none;
+}
+.m_head_navMeng{
+	display: none;
+}
+header .header_bottom>.logo{
+	width: 260px;
+	height: 50px;
+	line-height: 10px;
+	float: left;
+	margin-bottom: 41px;	
+
+}
+header .header_bottom>.logo>a{
+	height: 50px;
+	line-height: 50px;
+	display: inline-block;
+	position: relative;
+}
+header .header_bottom>.logo>a>img{
+	width: 280px;
+	position:absolute;
+	left:50%;
+	top:50%;
+	transform: translate(-50%,-50%);
+}
+header .header_bottom>ul{
+	float: right;
+}
+header .header_bottom>ul>li{
+	list-style: none;
+	float: left;
+	height: 50px;
+	position: relative;
+	padding-bottom: 30px;
+}
+header .header_bottom>ul>li>a{
+	display: block;
+	height: 50px;
+	line-height: 80px;
+	margin:0 auto;
+	padding:0 20px;
+	color: #2a1815;
+}
+header .header_bottom ul ul{
+	position: absolute;
+	width:100%;
+	top:50px;
+	left: 0;
+	z-index: 52;
+	font-size: 13px;
+	display: none;
+}
+header .header_bottom ul ul>li{
+	height: 43px;
+	line-height: 43px;
+	text-align: center;
+	border-bottom: 1px solid #D6D6D6;
+	background-color: #F0F0F0;
+	cursor: pointer;
+}
+header .header_bottom>ul>li:hover{
+	background-color: #ebeeee;
+	border-top: 3.5px solid #ec662d;
+}
+header .header_bottom ul ul>li>a{
+	color: #000;
+	display: block;
+}
+/*头部 响应式代码 开始*/
+
+
+/*头部 响应式代码 结束*/
+/*头部结束*/
+/*右侧浮动联系窗口 开始*/
+#newBridge .nb-icon-skin-0 .nb-icon-inner-wrap{
+	background-color: #ec662c !important;
+}
+
+/*关于凯东源等  开始*/
+.container .about_kdy{
+	width: 100%;
+	margin-left: 5px;
+	color: #fff;
+	margin-bottom: -2px;
+}
+.about_kdy>.about_top>img{
+	width: 100%;
+	height: 100%;
+}
+/*关于凯东源等  结束*/
+
+/*尾部开始*/
+footer{
+	width: 100%;
+	overflow: hidden;
+	padding-top: 10px;
+	padding-bottom: 20px;
+	font-size: 14px;
+	margin-top: 50px;
+	background-color: #eceeee;
+}
+footer a{
+	color: black;
+}
+footer>.Foot_Top{
+	width: 1080px;
+	margin: 0 auto;
+	border-bottom: 1px solid #888;
+	padding-bottom: 20px;
+	overflow: hidden;
+}
+footer>.Foot_Top>div{
+	float: left;
+}
+footer>.Foot_Top .Foot_Top_Left img{
+	width: 28px;
+	margin-right: 14px;
+	float: left;
+}
+footer>.Foot_Top .Foot_Top_Left>div:nth-child(1){
+	font-size: 23px;
+	font-weight: 700;
+	vertical-align: middle;
+	margin-bottom: 20px;
+	overflow: hidden;
+}
+footer>.Foot_Top .Foot_Top_Left>div:nth-child(1) span{
+	float: left;
+}
+footer>.Foot_Top .Foot_Top_Left>ul{
+	margin-bottom: 15px;
+}
+footer>.Foot_Top .Foot_Top_Left>ul a{
+	border-right: 1px solid #fff;
+	padding:0  7px;
+}
+footer>.Foot_Top .Foot_Top_Left>ul a:first-child{
+	padding-left: 0;
+}
+footer>.Foot_Top .Foot_Top_Left>ul a:last-child{
+	border-right: none;
+	padding-right: 0; 
+}
+footer>.Foot_Top .Foot_Top_Left>div:nth-child(3){
+	margin-bottom: 10px;
+}
+footer>.Foot_Top>div.Foot_Top_Center{
+	width: 310px;
+	float: right;
+	margin-right: 30px;
+}
+.Foot_Top_Center>div:nth-child(1){
+	font-size: 20px;
+	margin-bottom: 20px;
+}
+.Foot_Top_Center ul a{
+	margin-right: 15px;
+	line-height: 25px;
+}
+.Foot_Top_Center img{
+	width: 33px;
+	margin-right: 10px;
+}
+footer>.Foot_Top>div.Foot_Top_Right{
+	float: right;
+}
+.Foot_Top_Right>div{
+	float: left;
+	font-size: 12px;
+	text-align: center;
+	overflow: hidden;
+}
+.Foot_Top_Right>div:nth-child(1){
+	margin-right: 20px;
+}
+.Foot_Top_Right img{
+	width: 100px;
+}
+.Foot_Bottom{
+	width: 1080px;
+	margin: 0 auto;
+	text-align: center;
+	margin-top: 15px;
+}
+.Foot_Bottom>span:nth-child(1),.Foot_Bottom>span:nth-child(2){
+	border-right: 1px solid #fff;
+}
+footer div#NetworkSupervision{
+	text-align: center;
+	display: inline-block;
+}
+footer div#NetworkSupervision img{
+	width: 13px;
+	height: auto;
+}
+footer .m_Foot_bottom{
+  display: none;
+}
+footer .m_banquan{
+	display: none;
+}
+/*尾部结束*/
+
+/*关于凯东源模块  开始*/
+.SubpageNavBtn{
+	display: none;
+}
+.container{
+	width:100%;
+}
+.container>.contain_top{
+	width:100%;
+}
+.container>.contain_top>img{
+	width: 100%;
+}
+.contain_bottom{
+	width: 1280px;
+	margin: 0 auto;
+}
+.contain_bottom>div{
+	float: left;
+}
+.contain_bottom>.bottom_left{
+	width: 250px;
+	position: relative;
+	height: 910px;
+}
+.botLeft_position{
+	width: 100%;
+	height: 910px;
+	position: absolute;
+	left: 0;
+}
+.botLeft_position>ul{
+	padding-bottom: 60px;
+	margin-left: 5px;
+	margin-right: 6.5px;
+}
+.botLeft_position>ul>li{
+	height: 60px;
+	line-height: 60px;
+	background-color: #dcdcdc;
+	text-align: center;
+	border-left: 0px solid white;
+	cursor: pointer;
+	box-sizing: border-box;
+	margin-top: 1px;
+}
+.botLeft_position>ul>li>a{
+	color: #808080;
+	font-family: "Microsoft Yahei",Arial,Tahoma,sans-serif;
+	display: block;
+}
+.botLeft_position_contact{
+	position: absolute;
+	left: 5px;
+	right: 5px;
+	bottom: 0;
+	height: 180px;
+}
+.botLeft_position_contact>img{
+	width: 100%;
+	vertical-align: middle;
+}
+.curr_position{
+	line-height: 90px;
+}
+.curr_position>img{
+	width: 6.5%;
+	padding-bottom: 3px;
+	margin-right: 7px;
+	vertical-align: middle;
+}
+.curr_text{
+	position: absolute;
+	left: 23px;
+	right: -300px;
+}
+.curr_top_title{
+	font-size: 18pt;
+	color: #ec662d;
+}
+/*右边内容*/
+.contain_bottom>.bottom_right{
+	width: 860px;
+	padding: 0 80px;
+}
+.content_head{
+	width: 100%;
+	color: #ec662c;
+	padding: 10px 0;
+	border-bottom: 1px solid #ccc;
+	margin-top: 100px;
+}
+.content_head h2{
+	font-size: 36px;
+	font-family: SimHei;
+}
+.content_head h4{
+	display: none;
+	font-weight: 500;
+	font-size: 36px;
+	font-family: 'dincond-boldregular',"Microsoft Yahei",Arial,Tahoma,sans-serif;
+}
+.content{
+	color: #595959;
+	font-size: 15px;
+}
+.content>p{
+	margin:30px 0;
+	text-indent:2em;
+	line-height: 32px;
+}
+.content img{
+	width: 860px;
+	margin: 10px 0;
+}
+.content>p>span{
+	color: #ec662c;
+}
+.content p.indent{
+	text-indent: 4em;
+}
+.content>p.cityTitle{
+	text-indent:0;
+	font-weight: 300;
+	font-size: 16px;
+}
+.content>h3,.content>h4{
+	margin: 25px 0;
+	
+}
+.content>p.noIndent{
+	text-indent: 0;
+}
+
+.content img{
+	top:143px;
+	left:215px;
+}
